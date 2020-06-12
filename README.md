@@ -40,4 +40,4 @@ Constructive feedback in any form is also very much appreciated. This applies to
 
 The code has been written and is maintained by
 
-- Assoc.\ Prof.\ Jesper Kjær Nielsen, Audio Analysis Lab, CREATE, Aalborg University, Denmark
+- Assoc. Prof. Jesper Kjær Nielsen, Audio Analysis Lab, CREATE, Aalborg University, Denmark
