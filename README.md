@@ -1,7 +1,7 @@
-# fastF0ArNls - Fast Nonlinear Least Squares Estimation of the Fundamental Frequency in AR noise
+# fastF0ArMl - Fast Maximum Likelihood Estimation of the Fundamental Frequency in AR noise
 This git repository contains MATLAB-implementations of fast algorithms for fundamental frequency estimation in autoregressive (AR) noise. The details of the algorithms can be found in
 
-- Fast Algorithms for Joint Fundamental Frequency and Autoregressive Parameter Estimation. Quinn, Barry Gerard; Nielsen, Jesper Kjær; Mads Græsbøll; unsubmitted manuscript, 2020
+- Fast Algorithms for Fundamental Frequency Estimation in Autoregressive Noise. Quinn, Barry Gerard; Nielsen, Jesper Kjær; Mads Græsbøll; Signal Processing, submitted, 2020
 
 Moreover, the git repository also contains all the code and data needed for reproducing the results in the paper. Finally, an example is also given to show how the estimator is used.
 
@@ -13,7 +13,7 @@ Please note that the it can take several days to recompute the computation times
 ## Using the estimator on your own data
 Before you use the estimator on your own data, please do the following:
 1. Make the example in the `example` folder run on your own computer.
-2. Read the documentation in the class-file `code/estimator/@FastF0ArNls/FastF0ArNls.m`.
+2. Read the documentation in the class-file `code/estimator/@FastF0ArMl/FastF0ArMl.m`.
 
 ## Scope and limitations
 Note that the estimator can be refined in a number of ways. First of all, a fundamental frequency tracker should be added on top of the estimator for segment-by-segment processing. The tracker is there to minimise the risk of, e.g., octave errors (aka pitch halving) by smoothing out the estimates produced by the estimator which analyse the data on a segment-by-segment basis. For the best performance, we recommend that the tracker by either Shi et al. or Tabrikian et al. is used. See more in
