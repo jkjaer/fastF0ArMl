@@ -1,7 +1,7 @@
 # fastF0ArMl - Fast Maximum Likelihood Estimation of the Fundamental Frequency in AR noise
 This git repository contains MATLAB-implementations of fast algorithms for fundamental frequency estimation in autoregressive (AR) noise. The details of the algorithms can be found in
 
-- Fast Algorithms for Fundamental Frequency Estimation in Autoregressive Noise. Quinn, Barry Gerard; Nielsen, Jesper Kjær; Christensen, Mads Græsbøll; Signal Processing, accepted, 2020
+- Fast Algorithms for Fundamental Frequency Estimation in Autoregressive Noise. Quinn, Barry Gerard and Nielsen, Jesper Kjær and Christensen, Mads Græsbøll, Signal Processing, Volume 180, 2021, https://doi.org/10.1016/j.sigpro.2020.107860.
 
 Moreover, the git repository also contains all the code and data needed for reproducing the results in the paper. Finally, an example is also given to show how the estimator is used.
 
